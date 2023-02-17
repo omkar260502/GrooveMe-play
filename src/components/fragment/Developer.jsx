@@ -6,14 +6,13 @@ import {Instagram, LinkedIn, Portrait, GitHub} from "@material-ui/icons";
 const Developer = () => {
     return (
         <div className={"Developer"}>
-            <h3 className={"Developer-head"}>Meet Me</h3>
+            <h3 className={"Developer-head"}>Meet the Developer</h3>
             <div className="Developer-profile">
                 <div className="Developer-profileCard">
                     <img src="https://media.licdn.com/dms/image/D4D03AQHRvxI0NBXf0g/profile-displayphoto-shrink_800_800/0/1669541174335?e=1681948800&v=beta&t=o4kDwfsmpL7LQAHBUodYW4Z9weFO7DaZyHceQ_5BZQI" alt="Profile"/>
                     <div className={"Card-details"}>
                         <h3>Omkar Taple</h3>
                         <p>Computer Engineering Student</p>
-                        <p>Web Developer</p>
                     </div>
                 </div>
                 <div className="Developer-profileDetails">

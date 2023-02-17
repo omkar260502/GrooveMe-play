@@ -36,7 +36,7 @@ function About() {
         <Container>
             <div className={"Profile"}>
                 <div className="top-profile">
-                    <Avatar variant={"rounded"} src={require("../assets/img/avatar2.jpg")}
+                    <Avatar variant={"rounded"} src={require("../assets/img/logo1.png")}
                             style={{width: "150px", height: "150px"}}>
                         GM
                     </Avatar>
@@ -51,7 +51,15 @@ function About() {
                         </span>
                     </div>
                     <div className="profile-detail">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi quasi officia omnis error explicabo distinctio provident hic similique! Quos laborum deserunt quo perferendis quidem.</p>
+                        <p>Welcome to Groove Me, the ultimate music player that is designed to take your music listening experience to a whole new level! At Groove Me, we understand that music is an integral part of everyone's life, and it can often make or break our moods. That's why we have created a music player that not only plays your favorite tunes but also helps you discover new music based on your mood.<br/><br/>
+
+Our unique feature of detecting your emotions through your facial expressions is what sets us apart from the rest. Our state-of-the-art technology can analyze your facial expressions and suggest music that is in sync with your mood. So, whether you're feeling happy, sad, or just need some motivation, Groove Me has got you covered.<br/><br/>
+
+Our extensive music library has something for everyone, no matter what your taste in music may be. From the latest chart-toppers to the golden classics, we have it all. Our team of expert curators handpick the best tracks from around the world to ensure that you always have access to the finest music.<br/><br/>
+
+At Groove Me, we believe that music should be accessible to everyone, regardless of their location or device. That's why we have made our music player available on all platforms, be it desktop, mobile, or tablet. With our easy-to-use interface, you can stream your favorite tracks in high quality, anytime, anywhere.<br/><br/>
+
+So, what are you waiting for? Sign up now and let Groove Me take you on a musical journey like never before!</p>
                         
                     </div>
                 </div>
