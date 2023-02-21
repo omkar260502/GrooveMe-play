@@ -1,7 +1,7 @@
 import React from 'react';
 import '../assets/scss/Developer.scss';
 import {IconButton} from "@material-ui/core";
-import {Instagram, LinkedIn, Portrait, GitHub} from "@material-ui/icons";
+import {Instagram, LinkedIn, Portrait, GitHub, Mail} from "@material-ui/icons";
 
 const Developer = () => {
     return (
@@ -16,7 +16,11 @@ const Developer = () => {
                     </div>
                 </div>
                 <div className="Developer-profileDetails">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus natus iste perferendis officia ducimus deserunt reiciendis quas explicabo praesentium saepe aperiam suscipit voluptas ea dolore voluptatem sunt ut sint nam blanditiis, perspiciatis iusto, vel et at! Repellendus officiis ut numquam, nam maiores veritatis aut? Quia, magnam fugit reiciendis ipsum neque, dolor dolores dolorem expedita blanditiis minus architecto, enim vero cupiditate optio ipsa? Mollitia saepe blanditiis enim corrupti repudiandae accusamus!</p>
+                    <p>Hi, I'm Omkar Taple, a third year computer science student from Pune with a passion for Tech. As a Web Developer and Machine Learning enthusiast, I enjoy building innovative projects that merge the two worlds.
+
+</p><p>In addition, I also have a passion for competitive coding. I enjoy participating in coding challenges and developing algorithms to solve complex problems. It's a rewarding and challenging pursuit that keeps my mind sharp and my skills honed.
+
+</p><p>I'm excited about the possibilities that technology can bring to the world of music, and I'm always exploring new ideas and experimenting with new tools. If you have any questions or ideas for collaboration, feel free to reach out – I'd love to hear from you!</p>
                     
                     <div className="Card-btn">
                         <IconButton target={"_blank"}  href={"https://github.com/omkar260502/"} title={"omkar260502"}>
@@ -31,6 +35,9 @@ const Developer = () => {
                         </IconButton>
                         <IconButton target={"_blank"} href={"#"}  title={"Web Portfolio"}>
                             <Portrait/>
+                        </IconButton>
+                        <IconButton target={"_blank"} href={"mailto:omkartaple.3@gmail.com"}  title={"Web Portfolio"}>
+                            <Mail/>
                         </IconButton>
                     </div>
                 </div>
