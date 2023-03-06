@@ -28,10 +28,10 @@ function SideBar() {
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/happy"}  title={"Happy Songs"}/>
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/angry"}  title={"Angry Mood Songs"}/>
-                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
-                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
-                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
-                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/electronic"}  title={"Electronic"}/>
+                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/sad"}  title={"Sad Music"}/>
+                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/disgust"}  title={"Music for Disgusted mood"}/>
+                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/surprise"}  title={"Music for surprised mood"}/>
+                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/neutral"}  title={"Music For Neutral Mood"}/>
             </div>
         </aside>
     );
