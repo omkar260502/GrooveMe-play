@@ -32,6 +32,7 @@ function SideBar() {
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/disgust"}  title={"Music for Disgusted mood"}/>
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/surprise"}  title={"Music for surprised mood"}/>
                 <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/neutral"}  title={"Music For Neutral Mood"}/>
+                <SideBarOptions className={"lib-sub"} Icon={PlaylistPlay} href={"/home/playlist/fear"}  title={"Music to calm you down"}/>
             </div>
         </aside>
     );
